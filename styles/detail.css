@@ -1,0 +1,154 @@
+*{
+    font-family: 14px system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: rgb(236, 235, 235);
+}
+
+#main-box{
+    margin:1%;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}    
+   
+
+
+#filter-box{
+width:20%;
+ 
+}
+
+
+
+#data-box{
+width:62%;
+
+}
+
+
+#ad-box{
+width:10%;
+
+text-align: center;
+
+
+}
+#ad-box img{
+    position:fixed;
+    right:28px;
+
+}
+
+#map{
+    border: 1px solid rgb(117, 175, 199);
+    width:95%;
+    margin:auto;
+}
+
+iframe{
+    width:100%;
+    
+}
+
+#name-filter{
+    width:100%;
+    margin:auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    border-top:2px solid gray;
+    border-bottom: 2px solid gray;
+    margin-top:27px;
+    text-align: center;
+}
+
+.filter-head{
+    margin:0px;
+    margin-bottom:5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#name-filter input{
+    width:90%;
+    height:40px;
+}
+#name-filter p{
+    margin:0;
+    margin-bottom:5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* sorter and display data section */
+
+#sorting-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2% 0%;
+}
+#sort-box{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 15px;
+    border:1px solid gray;
+    background-color: white;
+
+}
+#sorter{
+    outline: none;
+    border:none;
+    font-size: 20px;
+}
+
+#sort-box span{
+    color: gray;
+    font-size: 20px;
+}
+#sort-heading{
+    font-weight: bold;
+    margin-top: 0px;
+    font-size:20px;
+}
+#sort-heading:hover{
+    text-decoration: underline;
+}
+
+#properties-no{
+    margin-bottom: 2px;
+}
+
+#signin-signup{
+    background-color: white;
+    padding:2%;
+}
+#signin-signup h3{
+ margin-bottom:0px;
+ margin-top: 0px;
+}
+#signin-signup p{
+    margin-top:0px;
+}
+
+#signin-signup a{
+    text-decoration: none;
+    color:skyblue;
+    margin-right: 10px;
+}
+
+#signin-signup a:hover{
+    text-decoration: underline;
+}
+
+#display-box{
+    display:grid;
+    grid-template-columns: 100% ;
+    grid-auto-rows: 300px;
+    gap:10px;
+}
+.item-card{
+   display:flex;
+
+}
+
