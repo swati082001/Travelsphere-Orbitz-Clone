@@ -5,13 +5,226 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <link rel="icon" href="https://www.orbitz.com//favicon.ico"> -->
     <link rel="stylesheet" href="./styles/navbar.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <script src="https://kit.fontawesome.com/7d347a4af9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/barcode.css">
+    
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> 
 </head>
 <body>
     <div id="navbar">
        <!-- add navbar here -->
+    </div>
+    <div id="cardDisplay">
+        <div id="card">
+            <div id="cardNavbar">
+                <button class="cardBtn" id="stays">Stays</button>
+                <button class="cardBtn" id="flight">Flight</button>
+                <button class="cardBtn" id="cars">Cars</button>
+                <button class="cardBtn" id="packages">Packages</button>
+                <button class="cardBtn" id="things">Things to do</button>
+                <button class="cardBtn" id="cruises">Cruises</button>
+            </div>
+            <hr>
+            <div id="staysDiv">
+                <div id="firstStayDiv">
+                    <div id="searchdiv">
+                        <i id="input-icon" class="fa-solid fa-location-dot"></i>
+                       
+                            <!-- <select id="citySelect" >
+                                <option class="option" value="going">Going To</option>
+                                <option class="option" value="Mumbai">Mumbai</option>
+                                <option value="Channai">Channai</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Banglore">Banglore</option>
+                            </select> -->
+                            <input id="citySelect" type="text" placeholder="Going to">
+                        <!-- </div> -->
+                    </div>
+
+                    <div id="checkin" class="check">
+                        <i class="fa-regular fa-calendar"></i>
+                        <!-- <i id="input-icon" class="fa-solid fa-location-dot"></i> -->
+                        <div class="calender">
+                            <label for="checkin">Check-in</label>
+                            <input type="date" name="date" id="checkinId" class="checkinDate" value="2022-11-23">
+                            <!-- <p>23 NOV</p> -->
+                        </div>
+                    </div>
+
+                    <div id="checkout" class="check">
+                        <i class="fa-regular fa-calendar"></i>
+                        <!-- <i id="input-icon" class="fa-solid fa-location-dot"></i> -->
+                        <div class="calender">
+                            <label for="checkout">Check-out</label>
+                            <input type="date" id="checkoutId" name="date" class="checkinDate" value="2022-11-24">
+                            <!-- <p>24 NOV</p> -->
+                            <!-- <input type="date" name="date" id="checkoutDate"> -->
+                        </div>
+                    </div>
+
+                    <div class="traveller" id="travellerSearch">
+                        <div class="check">
+                            <i class="fa-solid fa-user"></i>
+                            <!-- <i id="input-icon" class="fa-solid fa-location-dot"></i> -->
+                            <div class="calender">
+                                <label for="checkin">Travelers</label>
+                                <!-- <input type="date" name="date" id="checkinDate"> -->
+                                <p>1 room,<span id="travelernum">2 </span>travelers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="hideDiv">
+                    <div id="searchcard">
+                        <input type="search" placeholder="where are you going?" id="searchbar">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <hr>
+                        <div id="searchicon">
+                            <p>Search Going City</p>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+
+                    
+    
+                    <div id="travelers">
+                        <p>Travelers</p>
+                        <p>Room 1</p>
+                        <div id="adults" class="travelersPer">
+                            <p>Adults</p>
+                            <div id="maxminbtnAdults" class="buttonsTrav">
+                                <button  id="adultMin" class="min">-</button>
+                                <p id="adultsP"> 2 </p>
+                                <button id="adultMax" class="max">+</button>
+                            </div>
+                        </div>
+                        <div id="children" class="travelersPer">
+                            <p>Children</br><span>Ages 0 to 17</span></p>
+                            <div id="maxminbtnChilds" class="buttonsTrav" >
+                                <button id="childMin" class="min" disabled>-</button>
+                                <p id="childp"> 0 </p>
+                                <button id="childMax" class="max">+</button>
+                            </div>
+                        </div>
+                        <button id="btntraveler">Add another room</button></br>
+                        <button id="done">Done</button>
+                    </div>
+                </div>
+                
+                <div id="checkbox">
+                    <input type="checkbox" id="addFlightcheck" name="Flight" value="flight">
+                    <label for="addfligtr" id="addFlight"> Add a Flight</label>
+
+                    <input type="checkbox" id="addcarcheck" name="car" value="flight">
+                    <label for="addcar" id="addcar" > Add a Car</label>
+                </div>
+                <div id="flightSelectDiv">
+                    <div id="flightsearchdiv">
+                        <i id="input-icon" class="fa-solid fa-location-dot"></i>
+                        <input id="flightCitySelect" type="text" placeholder="Leaving to">
+                    </div>
+
+                    <div id="searchcard2">
+                        <input type="text" placeholder="where are you leaving from?" id="searchbar2">
+                        <button>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <hr>
+                        <div id="searchicon2">
+                            <p>Search Going City</p>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- <div id="searchcard2">
+                    <input type="text" placeholder="where are you leaving from?" id="searchbar2">
+                    <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                    <hr>
+                    <div id="searchicon2">
+                        <p>Search Going City</p>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div> -->
+
+                <div id="secondDiv">
+                    <a href="append.html"><button id="staySerachBtn">Search</button></a>
+                </div>
+            </div>
+
+            <div id="FlightsDiv">
+                <div id="flightfirst">
+                    <div id="flightsButtons">
+                        <button>Roundtrip</button>
+                        <button>One-way</button>
+                        <button>Multi-city</button>
+                    </div>
+                    <div id="dropdowns">
+                        <p>1 traveler ⮟</p>
+                        <p>Economy ⮟</p>
+                    </div>
+                    
+                </div>
+                <div id="flightSearch">
+                    <div id="flightsearchdiv">
+                        <i id="input-icon" class="fa-solid fa-location-dot"></i>
+                        <input id="flightSelectleaving" type="text" placeholder="Leaving From">
+                    </div>
+                    <div id="arroImage">
+                       <button id="imageArrow">⮀</button>
+                    </div>
+                    <div id="flightsearchdiv2">
+                        <i id="input-icon" class="fa-solid fa-location-dot"></i>
+                        <input id="flightSelectgoin" type="text" placeholder="Going to">
+                    </div>
+
+                    <div id="departure" class="check">
+                        <i class="fa-regular fa-calendar"></i>
+                        <!-- <i id="input-icon" class="fa-solid fa-location-dot"></i> -->
+                        <div class="calender">
+                            <label for="checkin">Depature</label>
+                            <input type="date" name="date" id="departureId" class="checkinDate" value="2022-11-23">
+                            <!-- <p>23 NOV</p> -->
+                        </div>
+                    </div>
+
+                    <div id="returning" class="check">
+                        <i class="fa-regular fa-calendar"></i>
+                        <!-- <i id="input-icon" class="fa-solid fa-location-dot"></i> -->
+                        <div class="calender">
+                            <label for="checkout">Returning</label>
+                            <input type="date" id="returningId" name="date" class="checkinDate" value="2022-11-24">
+                            <!-- <p>24 NOV</p> -->
+                            <!-- <input type="date" name="date" id="checkoutDate"> -->
+                        </div>
+                    </div>
+                </div>
+                <div id="checkboxdflight">
+                    <input type="checkbox" id="addFlightcheck1" name="Flight" value="flight">
+                    <label for="addfligtr" id="addFlight"> Add a Place to stay</label>
+
+                    <input type="checkbox" id="addcarcheck2" name="car" value="flight">
+                    <label for="addcar" id="addcar" > Add a Car</label>
+                </div>
+                <div id="flightserachbtn">
+                    <button id="flightSerachBtn">Search</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="barcode">
+        <!-- append the barcode section here   -->
     </div>
 
     <footer>
@@ -23,4 +236,4 @@
 </html>
 
 
-<script type="module" src="index.js"></script>
+<script type="module" src="./index.js"></script>

@@ -1,27 +1,11 @@
 body {
-    color: gray;
-}
-
-i {
-
-    color: green;
-    font-size: large;
-}
-
-hr {
-    color: rgb(153, 153, 153);
-}
-
-h1 {
-    color: black;
-    margin-bottom: 3px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
 }
 
 #logo {
-    width: 14%;
-    height: 16%;
-    padding-left: 3%;
+    width: 12%;
+    height: 15%;
+
     display: block;
     margin: auto;
     margin-top: -32px;
@@ -29,26 +13,30 @@ h1 {
 
 #logo_back {
     margin-top: 15px;
-    padding-left: 10px;
+    margin-left: 10px;
 }
 
 #signin_div {
 
     margin: auto;
-    border: 0px solid green;
+
     width: 30%;
     text-align: start;
+    margin-top: -5px;
 }
 
 #signin_div>input {
     width: 98%;
-    height: 43px;
+    padding: 10px;
     margin-top: 6%;
     font-size: 20px;
+    background-color:  #f5f5f5;
+    border-radius: 5px;
+    border: 0.5px solid black;
 }
 
 #signin_div .checkbox {
-    margin-top: 8%;
+    margin-top: 5%;
     height: 20px;
     width: 20px;
 
@@ -63,35 +51,29 @@ h1 {
     margin: auto;
     width: 30%;
     text-align: center;
-    cursor:pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 #button {
-
     margin: auto;
-    display:flex;
-    justify-content: center;
-    align-items: center;
     width: 100%;
-    height: 49px;
-    cursor:pointer;
-    border: 0px solid #ebb6c4;
+    height: 50px;
     background-color: #f9004d;
     margin-bottom: 4%;
-    margin-top: 15px;
-    border-radius: 15px;
-}
-
-#button >p {
-    font-size: 20px;
-    color: white;
-    display:flex;
-    font-weight: bolder;
-    text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
-    cursor:pointer;
-   
+    border-radius: 5px;
+
+}
+
+
+#button p {
+    text-align: center;
+
+    color: white;
+    font-weight: bolder;
 
 }
 
@@ -103,24 +85,21 @@ h1 {
 
 #creataccaunt,
 #creataccaunt a {
-    margin-bottom: 25px;
-}
-
-#creataccaunt {
-    margin-top: 20px;
+    margin-bottom: 50px;
 }
 
 #social_media {
     display: flex;
-    border: 0px solid red;
+
     justify-content: center;
     gap: 7%;
-    padding-bottom: 10px;
 }
 
 #social_media>img {
     width: 18px;
     height: 18px;
+
+
 }
 
  /* Medium Screen */

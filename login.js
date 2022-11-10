@@ -72,3 +72,8 @@ let clickbox = () => {
       window.location.href = "index.html";
     });
   
+
+    //import of footer
+import footer from './components/footer.js';
+let footer_div = document.querySelector("footer");
+footer_div.innerHTML = footer();

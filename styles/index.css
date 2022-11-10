@@ -1,12 +1,5 @@
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #616161;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
- }
- 
+
  #cardDisplay{
      /* margin-top: 15px; */
      background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=225&q=mediumHigh"); 
@@ -116,7 +109,8 @@ body{
      padding-left: 5px;
      padding-right: 5px;
      padding-bottom: 6px;  
-     background-color: white
+     background-color: white;
+     outline: none;
  }
  
  #citySelect:focus{
@@ -237,10 +231,7 @@ body{
      
  }
  
- p{
-     color: black;
- }
- 
+
  
  #travelers>:nth-child(1){
      font-size: 18px;
@@ -348,6 +339,7 @@ body{
      width: 80%;
      padding: 12px;
      border: none;
+     outline: none;
      font-size: 18px;
      background-color: white;
  }
@@ -380,13 +372,13 @@ body{
      width: 150px;
  }
  
- input {
+ .calender input {
      outline: 0;
      border-width: 0 0 0px;
      /* border-color: blue */
  }
  
- input:focus {
+ .calender input:focus {
      outline: 0;
  }
  
@@ -407,7 +399,7 @@ body{
  }
  
  #secondDiv{
-     position: fixed;
+     /* position: fixed; */
      border: 0px solid red;
      text-align: center;
      margin-top: 15px;
@@ -417,7 +409,7 @@ body{
  
  
  #staySerachBtn{
-     position: fixed;
+     /* position: absolute; */
      padding: 12px;
      width: 200px;
      margin-top: 30px;
@@ -608,8 +600,8 @@ body{
  
  
  #flightserachbtn{
-     position: fixed;
-     border: 0px solid red;
+     /* position: fixed; */
+     /* border: 0px solid red; */
      text-align: center;
      margin-top: 15px;
      margin-left:450px;
@@ -617,7 +609,7 @@ body{
  }
  
  #flightSerachBtn{
-     position: fixed;
+     /* position: fixed; */
      padding: 12px;
      width: 200px;
      margin-top: 30px;

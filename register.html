@@ -7,14 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create an account</title>
     <link rel="icon" href="./images/logo.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="./styles/register.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+   
     <script src="https://kit.fontawesome.com/54ac14c613.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    
     <div id="logo_back">
         <i class="fa-solid fa-arrow-left"></i>
-        <img id="logo" src="https://www.orbitz.com/_dms/interstitial/logo.svg?locale=en_US&siteid=70201" alt="">
+        <a href="index.html"><img id="logo" src="TSprojectLogo.png" alt=""></a>
         <hr>
     </div>
 
@@ -28,7 +31,7 @@
             <div class="first_name"></div>
             <input type="text" id="last_name" placeholder="Last name" required>
             <div class="last_name"></div>
-            <input type="text" id="password" placeholder="Password" required>
+            <input type="password" id="password" placeholder="Password" required>
             <div class="password"></div>
             <div>
                 <input class="checkbox" id="checkbox" type="checkbox" required>
@@ -50,7 +53,7 @@
                 <p>Continue</p>
             </div>
             <a href="">Forgot password?</a>
-            <p id="creataccaunt">Already have an account? <a href="signin.html">Sign in</a></p>
+            <p id="creataccaunt">Already have an account? <a href="login.html">Sign in</a></p>
             <p>or continue with</p>
             <div id="social_media">
                 <img id="apple" src="https://a.travel-assets.com/egds/marks/apple.svg" alt="">
@@ -59,8 +62,11 @@
         </div>
 
     </form>
+    <footer>
+        <!-- add footer here -->
+    </footer>
 
 </body>
 
 </html>
-<script src="signup.js" type="module"></script>
+<script type="module" src="register.js" ></script>
