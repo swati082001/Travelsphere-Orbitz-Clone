@@ -1,0 +1,192 @@
+body{
+    background-color: #f5f5f5;
+}
+
+#payment-container{
+    
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#pay-one{
+    
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+#pay-one p{
+    color: grey;
+    font-size: 14px;
+    margin-top: 5px;
+    word-spacing: 1px;
+}
+#pay-one h4{
+    word-spacing: 1px;
+    font-weight: 600;
+}
+#pay-one i{
+    padding-top: 30px;
+}
+#pay-one div{
+    margin-right: 20px;
+}
+#pay-one div:nth-child(2),#pay-two div:nth-child(2){
+   padding: 10px;
+}
+#pay-flex,#pay-flex2{
+    display: flex;
+    gap: 30px;
+    height: auto;
+}
+
+#pay-two,#pay-protect,#card-details{
+    
+    background-color: white;
+    width:70%;
+    height: auto;
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+#pay-two div:nth-child(1) i,#pay-protect div:nth-child(1),#card-details div:nth-child(1){
+    
+    padding-top: 30px;
+}
+#pay-two div{
+    margin-right: 20px;
+}
+#pay-two div:nth-child(2) input, #pay-two div:nth-child(2) select{
+    padding: 10px;
+    margin-bottom: 15px;
+
+}
+#pay-two div:nth-child(2) select{
+    width: 100px;
+}
+
+ #pay-two div:nth-child(2) i,#pay-two div:nth-child(2) span,#card-details div:nth-child(2) i,#card-details div:nth-child(2) span,#booking_div i,#booking_div span{
+    color: green;
+    font-size: 14px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+ }
+ #pay-sidebar,#pay-price{
+    background-color: white;
+    width:30%;
+    height: 300px;
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+ }
+
+ #pay-protect div:nth-child(2),#card-details div:nth-child(2){
+   padding: 25px;
+   font-family: sans-serif;
+   font-size: 16px;
+ }
+ #pay-protect div:nth-child(2) span{
+    border-radius: 3px;
+    background-color: green;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    padding: 4px;
+ }
+
+ #pay-protect div:nth-child(2) .imp {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 20px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px
+ }
+ #pay-protect div:nth-child(2) p{
+    font-size: 13px;
+    color: grey;
+    font-weight: 300;
+    line-height: 1.8;
+ }
+
+ #pay-protect div:nth-child(2) .radio{
+    background-color: rgb(207, 228, 211);
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+ }
+
+ #pay-protect div:nth-child(2) input{
+    margin: 20px;
+   
+ }
+
+ #payment-form{
+    width: 100%;
+
+    
+}
+#payment-form .full{
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#payment-form .half{
+    width: 19%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+#payment-form input{
+    margin-top: 10px;
+}
+#booking_div{
+    background-color: white;
+    width:70%;
+    height: auto;
+    margin-top: 20px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+#booking_div ul li,#booking_div p{
+    font-size: 14px;
+    word-spacing: 1.5px;
+    margin-top: 10px;
+    color: grey;
+    margin-bottom: 10px;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+#complete-booking{
+    padding: 15px;
+    background-color: #ca2550 ;
+    font-weight: 600;
+    font-size: 18px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+
