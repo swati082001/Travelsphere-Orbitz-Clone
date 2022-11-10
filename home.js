@@ -3,9 +3,9 @@
 //     document.getElementById("cities").style.display = "block";
 // }
 
-import navbar from "./components/navbar.js";
-let navbar_div = document.getElementById("navbar");
-navbar_div.innerHTML=navbar();
+// import navbar from "./components/navbar.js";
+// let navbar_div = document.getElementById("navbar");
+// navbar_div.innerHTML=navbar();
 
 
 let hotels = [
@@ -310,9 +310,6 @@ citySelect.onclick = function(){
     searchcard.style.display = "block"
 }
 
-// citySelect.onclick = function(){
-//     searchcard.style.display = "block"
-// }
 
 
 let searchbar = document.getElementById("searchbar");
@@ -495,6 +492,7 @@ done.onclick = function(){
 }
 
 
+//Search button function
 let staySerachBtn = document.getElementById("staySerachBtn");
 staySerachBtn.onclick = function(){
    let c1 = document.getElementById("citySelect").value;
@@ -725,4 +723,11 @@ cruises.onclick = function(){
 
     document.getElementById("FlightsDiv").style.display ="none"
     document.getElementById("staysDiv").style.display ="block"
+}
+
+
+//onclick LGBTQ
+let lgbtq = document.getElementById("lgbtq")
+lgbtq.onclick = function(){
+    location.href ="";
 }
