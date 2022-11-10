@@ -16,11 +16,21 @@
 
             <div id="name-filter">
                 <p>Search by property name</p>
-                <input type='text' placeholder=" e.g. Marriott"/>
+                <input type='text' placeholder=" e.g. Marriott" id="hotelfilter"/>
+            </div>
+
+            <h2>Filter by</h4>
+
+            <div id="rating-filter">
+                <p class="filter-head" >Guest rating</p>
+                <div><input type="radio" id="def" name="rating" value='Any'/><label for="def">Any</label></div>
+                <div><input type="radio" id="won4.5+" name="rating" value='4.5+'/><label for="won4.5+">Wonderful 4.5+</label></div>
+                <div><input type="radio"id="good4+"  name="rating" value="4+"/><label for="good4+">Very good 4+</label></div>
+                <div><input type="radio" id="good3.5+" name="rating" value="3.5+"><label for="good3.5+">Good 3.5+</label></div>
             </div>
 
             <div id="city-filter">
-                <h2>Filter by</h4>
+                
                 <p class="filter-head">Popular filters</p>
                 <div><input type='checkbox' id='usche'/><label for="usche">Consulate General of the United States,Chennai</label></div>
                 <div><input type='checkbox' id='ai'/><label for="ai">All inclusive</label></div>
@@ -35,13 +45,7 @@
                 <input type='range' id="pricerange" min="0" max="300">
             </div>
 
-            <div id="rating-filter">
-                <p class="filter-head" >Guest rating</p>
-                <div><input type="checkbox" id="def"/><label for="def">Any</label></div>
-                <div><input type="checkbox" id="won4.5+"/><label for="won4.5+">Wonderful 4.5+</label></div>
-                <div><input type="checkbox"id="good4+"/><label for="good4+">Very good 4+</label></div>
-                <div><input type="checkbox" id="good3.5+"><label for="good3.5+">Good 3.5+</label></div>
-            </div>
+           
 
             <div id="star-btn">
                 <p class="filter-head">Star rating</p>
@@ -118,8 +122,10 @@
                          
         </div>
     </div>
+
+    
     
 </body>
 </html>
-<script src="hotel.js"></script>
-<script src="detail.js"></script>
+<script src="./scripts/hotel.js"></script>
+<script src="./scripts/detail.js"></script>
