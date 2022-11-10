@@ -1,0 +1,147 @@
+body {
+    color: gray;
+}
+
+i {
+
+    color: green;
+    font-size: large;
+}
+
+hr {
+    color: rgb(153, 153, 153);
+}
+
+h1 {
+    color: black;
+    margin-bottom: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#logo {
+    width: 14%;
+    height: 16%;
+    padding-left: 3%;
+    display: block;
+    margin: auto;
+    margin-top: -32px;
+}
+
+#logo_back {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+#signin_div {
+
+    margin: auto;
+    border: 0px solid green;
+    width: 30%;
+    text-align: start;
+}
+
+#signin_div>input {
+    width: 98%;
+    height: 43px;
+    margin-top: 6%;
+    font-size: 20px;
+}
+
+#signin_div .checkbox {
+    margin-top: 8%;
+    height: 20px;
+    width: 20px;
+
+}
+
+#term_conditions a {
+    text-decoration: none;
+    color: #347e8f;
+}
+
+#end_div {
+    margin: auto;
+    width: 30%;
+    text-align: center;
+    cursor:pointer;
+}
+
+#button {
+
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 49px;
+    cursor:pointer;
+    border: 0px solid #ebb6c4;
+    background-color: #f9004d;
+    margin-bottom: 4%;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+#button >p {
+    font-size: 20px;
+    color: white;
+    display:flex;
+    font-weight: bolder;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor:pointer;
+   
+
+}
+
+#end_div a {
+    color: #347e8f;
+    text-decoration: none;
+
+}
+
+#creataccaunt,
+#creataccaunt a {
+    margin-bottom: 25px;
+}
+
+#creataccaunt {
+    margin-top: 20px;
+}
+
+#social_media {
+    display: flex;
+    border: 0px solid red;
+    justify-content: center;
+    gap: 7%;
+    padding-bottom: 10px;
+}
+
+#social_media>img {
+    width: 18px;
+    height: 18px;
+}
+
+ /* Medium Screen */
+ @media only screen and (min-width: 500px) and (max-width: 768px) {
+    #signin_div{
+      grid-template-columns: repeat(3,1fr);
+      grid-template-rows: repeat(2,auto);
+      width: 95%;
+    }
+    #signin_div{
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(3,auto);
+      width: 95%;
+    }
+  }
+
+  /* Small Screen */
+  @media only screen and (min-width: 320px) and (max-width: 499px) {
+    #signin_div{
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(3,auto);
+      width: 100%;
+    }
+}
