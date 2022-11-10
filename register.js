@@ -1,3 +1,11 @@
+// //import of navbar
+// import navbar from "./components/navbar.js";
+// let navbar_div = document.getElementById("navbar");
+// navbar_div.innerHTML=navbar();
+
+
+
+
 let count = 0;
 let check = () => {
   document.getElementById("clickedcheckbox").innerText = null;
@@ -44,7 +52,7 @@ let register = (e) => {
     document.getElementById("last_name").value = null;
     document.getElementById("password").value = null;
 
-    window.location.href = "./signin.html";
+    window.location.href = "./login.html";
   } else {
     alert("Please fill all the valid credentials");
   }
@@ -67,3 +75,9 @@ document.getElementById("apple").addEventListener("click", applesocial);
 document.getElementById("checkbox").addEventListener("click", check);
 document.getElementById("button").addEventListener("click", register);
 document.querySelector(".fa-solid").addEventListener("click", privious_page);
+
+
+//import of footer
+import footer from './components/footer.js';
+let footer_div = document.querySelector("footer");
+footer_div.innerHTML = footer();

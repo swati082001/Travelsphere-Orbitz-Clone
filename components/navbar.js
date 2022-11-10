@@ -1,7 +1,8 @@
 
 
+
 const navbar = ()=>{
-    return `  <div id="navfirst">
+    return `<div id="navfirst">
     <a href="index.html"><img src="TSprojectLogo.png" alt=""></a>
     <ul>
         <li>More Travels
@@ -27,10 +28,9 @@ const navbar = ()=>{
         <a href="#"><li>List your property</li></a>
         <a href="#"><li>Support</li></a>
         <a href="#"><li>Trips</li></a>
-        <a href="#"><li>Signup</li></a>
+        <a href="register.html"><li>Signup</li></a>
     </ul>
-</div> `
-};
-
+</div>`
+}
 
 export default navbar;

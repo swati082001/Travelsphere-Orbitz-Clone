@@ -1,3 +1,15 @@
+
+
+
+//import of navbar
+import navbar from "./components/navbar.js";
+let navbar_div = document.getElementById("navbar");
+navbar_div.innerHTML=navbar();
+
+
+
+
+
 const appendData = (data)=>{
     let card= document.querySelector("#display-box");
     card.innerHTML=null;
@@ -12,3 +24,10 @@ const appendData = (data)=>{
     });
     
 };
+
+
+
+//import of footer
+import footer from './components/footer.js';
+let footer_div = document.querySelector("footer");
+footer_div.innerHTML = footer();
