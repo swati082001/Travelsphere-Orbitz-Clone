@@ -1,3 +1,8 @@
+//import of navbar
+import navbar from "./components/navbar.js";
+let navbar_div = document.getElementById("navbar");
+navbar_div.innerHTML=navbar();
+
 const key= `searchData`;
 const tripData= JSON.parse(localStorage.getItem(key));
 
@@ -16,6 +21,14 @@ let viewData= hotels.filter(({location})=>{
     appendData(viewData);
     
  };
+
+
+
+
+
+
+
+
 
 
 const appendData = (data)=>{
@@ -66,6 +79,7 @@ const appendData = (data)=>{
     });
     
 };
+
 
 
 
@@ -133,4 +147,10 @@ hname.oninput = ()=>{
 
 
 
+
+
+//import of footer
+import footer from './components/footer.js';
+let footer_div = document.querySelector("footer");
+footer_div.innerHTML = footer();
 

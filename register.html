@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an account</title>
+    <link rel="icon" href="./images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles/register.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+   
+    <script src="https://kit.fontawesome.com/54ac14c613.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <div id="logo_back">
+        <i class="fa-solid fa-arrow-left"></i>
+        <a href="index.html"><img id="logo" src="TSprojectLogo.png" alt=""></a>
+        <hr>
+    </div>
+
+    <form>
+
+        <div id="signin_div">
+            <h1>Create an account</h1>
+            <input type="text" id="email" placeholder="Email address" required>
+            <div class="email"></div>
+            <input type="text" id="name" placeholder="First name" required>
+            <div class="first_name"></div>
+            <input type="text" id="last_name" placeholder="Last name" required>
+            <div class="last_name"></div>
+            <input type="password" id="password" placeholder="Password" required>
+            <div class="password"></div>
+            <div>
+                <input class="checkbox" id="checkbox" type="checkbox" required>
+                Keep me signed in
+            </div>
+            <p>Selecting this checkbox will keep you signed into your account on this device until you sign out. Do not
+                select this on shared devices.</p>
+            <p id="clickedcheckbox"></p>
+
+            <p id="term_conditions">
+                By creating an account, I agree to the Orbitz<a href="">Terms and Conditions</a>,
+                <a href="">Privacy Statement</a> and <a href=""> Orbitz Rewards Terms and Conditions</a>.
+            </p>
+        </div>
+
+
+        <div id="end_div">
+            <div id="button">
+                <p>Continue</p>
+            </div>
+            <a href="">Forgot password?</a>
+            <p id="creataccaunt">Already have an account? <a href="login.html">Sign in</a></p>
+            <p>or continue with</p>
+            <div id="social_media">
+                <img id="apple" src="https://a.travel-assets.com/egds/marks/apple.svg" alt="">
+                <img id="facebook" src="https://a.travel-assets.com/egds/marks/facebook.svg" alt="">
+            </div>
+        </div>
+
+    </form>
+    <footer>
+        <!-- add footer here -->
+    </footer>
+
+</body>
+
+</html>
+<script type="module" src="register.js" ></script>
