@@ -1,3 +1,7 @@
+
+
+
+
 let clickbox = () => {
     let tick = document.getElementById("checkbox").checked;
     if (tick == true) {
@@ -43,12 +47,12 @@ let clickbox = () => {
       }
     }
     if (flag == false) {
-      alert("Sign in successfully");
+      alert("Sign in successful");
       window.location.href = "./index.html";
     } else if (click == false) {
       alert("Please click on checkbox");
     } else {
-      alert("Valid data doesn't match");
+      alert("Invalid Credentials");
     }
   };
   
