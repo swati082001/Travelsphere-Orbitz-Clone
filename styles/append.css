@@ -9,7 +9,7 @@ body{
     width: 80%;
     margin:auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: sans-serif;
     margin-top: 30px;
     
@@ -36,7 +36,7 @@ width:20%;
 }
 
 #data-box{
-width:62%;
+width:60%;
 
 }
 #ad-box{
@@ -156,14 +156,23 @@ div{
 #signin-signup a:hover{
     text-decoration: underline;
 }
+#show{
+    display: flex;
+    justify-content: space-around;
+}
 
 #display-box{
     display:grid;
     grid-template-columns: 100% ;
-    grid-auto-rows: 360px;
+    /* grid-auto-rows: 200px; */
     gap:15px;
     margin-top:1%;
+    padding: 10px;
+    height: auto;
 
+}
+#display-box h1{
+    font-size: 20px;
 }
 
 .item-card{
@@ -175,16 +184,31 @@ div{
 }
 .item-card>div:nth-child(1){
     height:100%;
-    width:53%;
+    width:40%;
 }
 .item-card>div:nth-child(2){
-    width:45%;
-    padding:5px;
+    width:60%;
+    padding:15px;
+}
+.item-card>div:nth-child(2) p{
+    font-size: 14px;
+   
+    line-height: 1.5em;
+    margin-bottom: 10px;
 }
 
 .card-image{
     width:100%;
     height:100%;
+}
+.discount{
+    text-decoration: line-through;
+   font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 80%;
+    color: red;
+    
 }
 
 @media all and (min-width:300px) and (max-width:700px)
