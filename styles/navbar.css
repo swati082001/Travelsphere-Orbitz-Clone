@@ -12,6 +12,7 @@
     justify-content: space-between;
     color: white;  
 }
+
 #navfirst{
     
     display: flex;
@@ -82,7 +83,6 @@
 #navsecond a{
     text-decoration: none;
     color: white;
-}
-#show_name{
-    display: inline;
+    
+
 }
