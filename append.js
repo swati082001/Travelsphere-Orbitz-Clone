@@ -19,7 +19,6 @@ let viewData= hotels.filter(({location})=>{
  window.onload = ()=>{
     console.log(viewData);
     appendData(viewData);
-    
  };
 
 
