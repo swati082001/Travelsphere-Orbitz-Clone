@@ -28,7 +28,8 @@ const navbar = ()=>{
         <a href="#"><li>List your property</li></a>
         <a href="#"><li>Support</li></a>
         <a href="#"><li>Trips</li></a>
-        <a href="register.html"><li>Signup</li></a>
+        <a href="#"><li id="navbar_signup">Signup</li></a>
+        <a href="#"><li id="show_name"> </li></a>
     </ul>
 </div>`
 }

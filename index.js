@@ -4,6 +4,23 @@ import navbar from "./components/navbar.js";
 let navbar_div = document.getElementById("navbar");
 navbar_div.innerHTML=navbar();
 
+let show_name=document.getElementById("show_name");
+let navbar_signup = document.getElementById("navbar_signup");
+show_name.style.display="none";
+navbar_signup.onclick=()=>{
+    navbar_signup.style.display="none";
+    window.location.href="./register.html";
+}
+let user_details=JSON.parse(localStorage.getItem("user"));
+console.log(user_details);
+show_name.innerHTML=user_details.first_name;
+if(user_details){
+    show_name.style.display="block";
+    show_name.style.display="inline";
+    navbar_signup.style.display="none";
+    
+}
+
 //main section
 // let staySearch = document.getElementById("serachDisplay");
 // staySearch.oninput = function(){
@@ -483,7 +500,7 @@ minChild.addEventListener("click",function(){
 
 
 let done = document.getElementById("done");
-let childValue =0 ,adultvalue=0,roomno;
+let childValue =0 ,adultvalue=1,roomno;
 done.onclick = function(){
     roomno = document.querySelector("#travelers>:nth-child(2)").textContent;
     console.log('roomno:', roomno)

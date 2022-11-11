@@ -66,20 +66,23 @@
 }
 
 #navsecond{
+    
     padding-top: 25px;
     font-size: 16px;
     font-family: sans-serif;
 }
 #navsecond ul{
+    
     list-style: none;
 }
 #navsecond ul li{
-    display: inline;
+   display: inline;
     margin: 20px 30px 20px;
 }
 #navsecond a{
     text-decoration: none;
     color: white;
-    
-
+}
+#show_name{
+    display: inline;
 }
