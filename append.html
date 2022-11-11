@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbitz Travel</title>
+    <link rel="stylesheet" href="./styles/append.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar">
+        <!-- add navbar here -->
+     </div>
+    <div id="main-box">
+        <div id="filter-box">
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448183.73909731774!2d76.81306989599702!3d28.646677253543224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1667977129783!5m2!1sen!2sin" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> 
+
+            <div id="name-filter">
+                <p>Search by property name</p>
+                <input type='text' placeholder=" e.g. Marriott" id="hotelfilter"/>
+            </div>
+
+            <h2>Filter by</h4>
+
+            <div id="rating-filter">
+                <p class="filter-head" >Guest rating</p>
+                <div><input type="radio" id="def" name="rating" value='Any'/><label for="def">Any</label></div>
+                <div><input type="radio" id="won4.5+" name="rating" value='4.5+'/><label for="won4.5+">Wonderful 4.5+</label></div>
+                <div><input type="radio"id="good4+"  name="rating" value="4+"/><label for="good4+">Very good 4+</label></div>
+                <div><input type="radio" id="good3.5+" name="rating" value="3.5+"><label for="good3.5+">Good 3.5+</label></div>
+            </div>
+
+            <div id="city-filter">
+                
+                <p class="filter-head">Popular filters</p>
+                <div><input type='checkbox' id='usche'/><label for="usche">Consulate General of the United States,Chennai</label></div>
+                <div><input type='checkbox' id='ai'/><label for="ai">All inclusive</label></div>
+                <div><input type="checkbox" id="fash"/><label for="fash">Free airpot Shuttle</label></div>
+                <div><input type="checkbox" id='hb'/><label for="hb">House boat</label></div>
+                <div><input type="checkbox" id="lin"/><label for="lin">Lunch included</label></div>
+                
+            </div> 
+
+            <div id="range-box">
+                <p class="filter-head">Price per night</p>
+                <input type='range' id="pricerange" min="0" max="300">
+            </div>
+
+           
+
+            <div id="star-btn">
+                <p class="filter-head">Star rating</p>
+                <button>1*</button>
+                <button>2*</button>
+                <button>3*</button>
+                <button>4*</button>
+                <button>5*</button>
+            </div>
+
+            <div id="pay-type">
+                <p class="filter-head">Payment type</p>
+                <div><input type="checkbox" id="ful-ref"><label for="ful-ref">Fully refundable</label></div>
+                <div><input type="checkbox" id="res-pay-lat"><label for="res-pay-lat">Reserve now,pay later</label></div>
+            </div>
+
+            <div id="property-filter">
+                <p class="filter-head">Property type</p>
+                <div><input type="checkbox" id="hous-bot"><label for="hous-bot">House boat</label></div>
+                <div><input type="checkbox" id="condo"><label for="condo">Condo</label></div>
+            </div>
+
+            <div id="experice-filter">
+                <p class="filter-head">Traveler experience</p>
+                <div><input type="checkbox" id="welcoming"><label for="welcoming">LGBTQ  welcoming</label></div>
+                <div><input type="checkbox" id="business"><label for="business">Business friendly</label></div>
+                <div><input type="checkbox" id="family"><label for="family">Family friendly</label></div>
+
+            </div>
+
+            <div id="neighbour">
+                <p class="filter-head">Neighborhood</p>
+                <div><input type="checkbox" id="ch-vici"><label for="ch-vici">Chennai(and vicinity)</label></div>
+                <div><input type="checkbox" id="gui"><label for="gui">Guindy</label></div>
+                <div><input type="checkbox" id="myl"><label for="myl">Mylapore</label></div>
+            </div>
+
+            <div id="popu-loca">
+                <p class="filter-head">Popular locations</p>
+                <div><input type="checkbox" id="mar-be"><label for="mar-be">Marina Beach</label></div>
+                <div><input type="checkbox" id="srm"><label for="srm">SRM University- Kattankulathur Campus</label></div>
+                <div><input type="checkbox" id="mgm"><label for="mgm">MGM Dizzee World</label></div>
+            </div>
+            
+        </div>
+
+        <div id="data-box">
+            <div id="sorting-box">
+                <div>
+                    <p id="properties-no">40 properties</p>
+                    <p id="sort-heading">see how we pick our recommended properties</p>
+                </div>
+                <div id="sort-box">
+                    <span >Sort by</span>
+                    <select id="sorter">
+                        <option value="">Recommended</option>
+                        <option value="price">Price</option>
+                        <option value="rating">Star Rating</option>
+                    </select>
+                </div>
+            </div>
+            <div id="signin-signup">
+                <h3>Say hellow to lower prices-just like that!</h3>
+                <p>Instantly get an extra 10% or more off thousands of properties with Insider Pricing.</p>
+                <a href="">Join now,it's free</a>
+                <a href="">Sign in</a>
+            </div>
+            
+            <div id="display-box">
+                
+            </div>
+        </div>
+        <div id="ad-box"><img src="https://tpc.googlesyndication.com/simgad/17193743292603108542" alt="">
+                         
+        </div>
+    </div>
+
+
+
+    <footer>
+        <!-- add footer here -->
+    </footer>
+    
+</body>
+</html>
+
+<script type="module" src="append.js"></script>
+>>>>>>> master:append.html

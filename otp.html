@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP</title>
+    <link rel="stylesheet" href="./styles/otp.css">
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <script src="https://kit.fontawesome.com/7d347a4af9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="navbar">
+        <!-- add navbar here -->
+     </div>
+
+    <div id="otp-page">
+        <h2>One Time Password</h2>
+        <p id="alert">Check Your Email For The OTP.</p>
+        <label for="">One Time Password</label><br>
+        <input oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength="4"
+        id="otp-input" type="password">
+        <p>By tapping Submit,you agree to our <span>Privacy Policy</span> and <span> Terms & Conditions</span></p>
+        
+         <button id="otp-btn">Submit</button>
+    </div>
+
+    <footer>
+        <!-- add footer here -->
+    </footer>
+</body>
+</html>
+
+<script type="module" src="otp.js"></script>

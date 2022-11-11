@@ -1,0 +1,43 @@
+#otp-page{
+    width: 25%;
+    margin: auto;
+    height: auto;
+    text-align: justify;
+    color: #333333;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+#otp-page h2{
+   font-family: sans-serif;
+   font-size: 25px;
+   font-weight: 200;
+   line-height: 22px;
+   margin-bottom: 30px;
+}
+#otp-page span{
+    text-decoration: underline;
+}
+#otp-page p,#otp-page label{
+    font-size: 16px;
+}
+#otp-page button{
+    font-size: 20px;
+    width: 100%;
+    padding: 15px;
+    background-color: #ca2550 ;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+#otp-page input{
+    width: 94%;
+    padding:10px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+#otp-page a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 50px;
+}

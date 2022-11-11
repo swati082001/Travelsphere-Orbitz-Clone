@@ -1,11 +1,14 @@
+
+//import of navbar
+import navbar from "./components/navbar.js";
+let navbar_div = document.getElementById("navbar");
+navbar_div.innerHTML=navbar();
+
+//main section
 // let staySearch = document.getElementById("serachDisplay");
 // staySearch.oninput = function(){
 //     document.getElementById("cities").style.display = "block";
 // }
-
-// import navbar from "./components/navbar.js";
-// let navbar_div = document.getElementById("navbar");
-// navbar_div.innerHTML=navbar();
 
 
 let hotels = [
@@ -321,7 +324,7 @@ async function searchCities(){
     let count =0;
     hotels.forEach(function(el){
         // console.log(el.location)
-        if(city_name === el.location){
+        if(city_name == el.location){
             count++; 
             console.log(city_name)
         }
@@ -726,8 +729,21 @@ cruises.onclick = function(){
 }
 
 
+
 //onclick LGBTQ
 let lgbtq = document.getElementById("lgbtq")
 lgbtq.onclick = function(){
     location.href ="";
 }
+
+//import barcode
+import barcode from './components/barcode.js';
+let barcode_div = document.getElementById("barcode");
+barcode_div.innerHTML= barcode();
+
+
+//import of footer
+import footer from './components/footer.js';
+let footer_div = document.querySelector("footer");
+footer_div.innerHTML = footer();
+

@@ -1,0 +1,1029 @@
+
+
+#homeSecondDiv{
+    width: 70%;
+    margin: auto;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+#homeSecondDiv>div{
+    border: 0px solid blue;
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-shadow: 0 4px 4px -1px #232323 ;
+}
+
+#homeSecondDiv>div>img{
+  width: 100%;
+  margin: auto;
+}
+
+#homeThirdDiv{
+    width: 70%;
+    margin: auto;
+    border: 0px solid red;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    margin-top: 15px;
+}
+
+#featured{
+    color: #000;
+}
+
+#featureGrid{
+    border: 0px solid rebeccapurple;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: -10px;
+}
+
+#featureGrid>div{
+    border: 0px solid rebeccapurple;
+    flex: 4;
+    height: 150px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(95%);
+}
+
+#firstImg{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_LastMinute_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh"); 
+}
+
+#secondImg{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_AllInclusive_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHighs"); 
+}
+
+#thirdImg{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_MOD_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh"); 
+}
+
+#fourthImg{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/02/ORB_Storefront_JetAndReset_imgB_900x600_20211101.jpg?impolicy=fcrop&w=900&h=600&q=mediumHigh"); 
+}
+
+
+#featureGrid>div>h3{
+    color: white;
+    line-height:5px;
+    margin-top: 118px;
+    text-align: center;
+}
+
+
+#featureGrid>:nth-child(2)>h3{
+    margin-top: 70px;
+    font-size: 25px;
+    line-height:23px;
+    text-align: center;
+}
+
+#featureGrid>div>p{
+    color: white;
+    font-size: 12px;
+    line-height: 1px;
+    margin-left: 30px;
+    /* margin-top: -1px; */
+}
+
+#homeFourthDiv{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#homeFourthDivImg{
+    height: 220px;
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/12/03/ORB_Storefront_Deals_2740x1484-V1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    filter: brightness(85%);
+}
+
+#homeFourthDivImg>div{
+    filter: brightness(100%);
+    display: inline-block;
+    align-self: flex-end;
+    color: white;
+    line-height: 5px;
+    filter: brightness(100%);
+    font-size: 15px;
+    color: #007e8f;
+    margin-left: 10px;
+}
+
+#homeFourthDivImg>div>p{
+  
+   font-size: 15px;
+   color: #007e8f
+}
+
+#homefiveDiv{
+    width: 70%;
+    margin: auto;
+    color: #000; 
+    margin-top: 30px;
+}
+
+#fiveDivCard{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#fiveDivCard>div{
+
+    /* flex: 3; */
+    padding: 5px;
+    width: 100%;
+    height: 60px;
+    line-height: 1px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    border: 1px solid #616161;
+}
+
+#fiveDivCard>div>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fiveDivCard>div>div>h4{
+    font-size: 15px;
+}
+
+#fiveDivCard>div>div>img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+#fiveDivCard>div>p{
+    font-size: 11px;
+    margin-top: 1px;
+}
+
+#homeSixDiv{
+    width: 70%;
+    margin: auto;
+}
+
+#homeSixDiv>h2{
+    color: #000;
+}
+
+
+#roadTrip{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+#roadTrip>div{
+    flex: 2;
+    height: 180px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    filter: brightness(0.8);
+   
+}
+
+#roadTripDiv1{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_NationalParks_imgB_1199x399_20211117.jpg"); 
+}
+
+#roadTripDiv2{
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/18/ORB_Blog_RoadTrips_imgB_1199x399_20211117.jpg");
+}
+
+
+#roadTrip>div>div{
+    line-height: 15px;
+    padding: 30px;
+    backdrop-filter: brightness(120%);
+}
+
+#roadTrip>div>div>h3{
+   color: white;
+}
+
+#roadTrip>div>div>p{
+    color: white;
+}
+
+#roadTrip>div>div>button{
+    color: #17aad0;
+    background-color: white;
+    border: none;
+    padding: 8px;
+    width: 100px;
+}
+
+
+
+/* RESPONSIVE */
+/* 
+@media only screen and (min-width:950px) and (max-width: 1100px) {
+    #staysDiv{
+        width: 100%;
+    }
+
+    #firstStayDiv{
+        width: 90%;
+        margin: auto;
+    }
+
+    #searchdiv{
+        width: 300px;
+    }
+
+    #flightsearchdiv{
+        width: 300px;
+    }
+
+    #checkbox{
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+        align-items: center;
+    }
+
+    #searchcard{
+        display: none;
+        position: absolute;
+        margin-top: -30px;
+        width: 260px;
+        height: 260px;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        background-color: white;
+        margin-left: 25px;
+    }
+
+    #flightSelectDiv{
+        width: 90%;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+
+    #travelers{
+        display: none;
+        position: absolute;
+        width: 200px;
+        margin-left: 680px;
+        border: 1px solid #616161;
+        padding: 5px;
+        margin-top: 1px;
+        background-color: white;
+        padding: 10px;
+        line-height:20px;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+
+    #btntraveler{
+        background-color: white;
+        border: none;
+        font-size: 13px;
+        color: #007e8f;
+        margin-left: 80px;
+    }
+
+    #searchcard2{
+        width: 250px;
+        height: 260px;
+    }
+    
+    .check{
+        width: 150px;
+        height:40px;
+    }
+    
+   .check i{
+        padding: 4px;
+        font-size: 20px;
+   }
+    
+    .calender input{
+        width:90%;
+    }
+
+    .calender>label{
+        font-size: 13px;
+    }
+
+    .calender>p{
+        font-size: 14px;
+    }
+
+
+    #secondDiv{
+        text-align: center;
+        margin-top: 15px;
+        margin-left:400px;
+        margin-right: 400px;
+    }
+
+
+    
+    #FlightsDiv{
+        width: 80%;
+        margin: auto;
+    }   
+    
+    #flightSelectleaving{
+        width: 200px;
+        color: #616161;
+    }
+    
+    #arroImage{
+        margin-top: 5px;
+        margin-left: -90px;
+        position: relative;
+    }
+    
+    #imageArrow{
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        background-color: white;
+        border-radius: 15px;
+        text-align: center;
+        border: 1px solid #616161;
+        font-size: 20px;
+    }
+    
+    #flightsearchdiv2{
+        display: flex;
+        flex-direction: row;
+        gap: 0px;
+        margin-left: -25px;
+    }
+    
+    #flightSelectgoin{
+        border: 1px solid #616161;
+        border-left: none;
+        width: 200px;
+        color: #616161;
+    }
+    
+    #flightserachbtn{
+        margin-left:300px;
+        margin-right: 300px;
+    } 
+    
+    #departure{
+        width: 150px;
+    }
+} */
+
+ #cardDisplay{
+     /* margin-top: 15px; */
+     background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=225&q=mediumHigh"); 
+     background-size:auto; 
+     width: 100%;
+     margin: auto;
+     padding:10px;
+     position: static;
+ }
+ 
+ #card{
+     /* border: 0px solid red; */
+     width: 95%;
+     margin:auto;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     height: 300px;
+     /* text-align: center;
+     align-items: center; */
+     background-color: white;
+     position: static;
+ }
+ 
+ #cardNavbar{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 10px;
+     /* width: 50%; */
+     margin: auto;
+     padding: 4px;
+ }
+ 
+ hr{
+     width: 95%;
+     margin: auto;
+     /* margin-top: 5px; */
+     position: relative;
+ 
+ }
+ 
+ .cardBtn{
+     border: none;
+     background-color: white;
+     padding: 10px;
+     text-align: center;
+     color: #616161;
+     font-size: 16px;
+     font-weight: 600;
+     line-height: 1.125rem;
+     cursor: pointer;
+ }
+ 
+ .cardBtn:hover{
+     border-bottom: 3px solid #535352;
+     margin-bottom: -5px;
+ }
+ 
+ #stays{
+     color: #007e8f;
+     border-bottom: 3px solid #007e8f;
+     margin-bottom: -5px;
+ }
+ 
+ 
+ #staysDiv{
+     /* display: none; */
+     width: 80%;
+     margin: auto;
+     margin-top: 15px;
+     color: #616161;
+ }
+ 
+ #searchdiv{
+     display: flex;
+     flex-direction: row;
+ }
+ 
+ #flightsearchdiv{
+     display: flex;
+     flex-direction: row; 
+ }
+ 
+ 
+ #input-icon{
+     /* width: 20px; */
+     border:  none;
+     padding: 9px;
+     border: 1px solid #616161;
+     border-right: none;
+     background-color: white
+ }
+ 
+ #inputDiv{
+     display: flex;
+     flex-direction: column;
+ }
+ 
+ 
+ #citySelect{
+     border: 1px solid #616161;
+     border-left: none;
+     width: 300px;
+     font-size: 15px;
+     color: #616161;
+     padding: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-bottom: 6px;  
+     background-color: white;
+     outline: none;
+ }
+ 
+ #citySelect:focus{
+     border: none;
+     background-color: white
+ }
+ 
+ #citySelect::after{
+     background-color: white
+ }
+ 
+ #flightCitySelect{
+     
+     border: 1px solid #616161;
+     border-left: none;
+     width: 300px;
+     font-size: 15px;
+     color: #616161;
+     padding: 5px;
+     padding-left: 5px;
+     padding-right: 5px;
+     padding-bottom: 6px;  
+ }
+ 
+ 
+ 
+ #flightCitySelect:focus{
+     border: none;
+     background-color: white
+ 
+ }
+ 
+ 
+ #flightCitySelect::after{
+     background-color: white
+ }
+ 
+ 
+ 
+ /* #citySelect .option{
+     width: 550px;
+     padding-left: 50px;
+     padding-right: 50px;
+ } */
+ 
+ #serachDisplay{
+     width: 300px;
+     padding: 10px;
+     border: 1px solid #616161;
+     border-left:none;
+ }
+ 
+ /* #namegoing{
+     display: none;
+     font-size: 12px;
+     padding-left: 10px;
+     color: white;
+     border-top: 1px solid #616161;
+     border-right: 1px solid #616161;
+ } */
+ 
+ 
+ #travelers{
+     display: none;
+     position: absolute;
+     width: 300px;
+     margin-left: 720px;
+     border: 1px solid #616161;
+     padding: 5px;
+     margin-top: 1px;
+     background-color: white;
+     padding: 10px;
+     line-height: 40px;
+     border: none;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+ 
+ 
+ #firstStayDiv{
+     display: flex;
+     flex-direction: row;
+     gap: 30px;
+ }
+ 
+ .check{
+     width: 200px;
+     border: 1px solid #616161;
+     display: flex;
+     flex-direction: row;
+     /* justify-content: center; */
+     align-items: center;
+     height:40px;
+ }
+ 
+ .check i{
+     padding: 4px;
+     font-size: 20px;
+ }
+ 
+ .calender{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* width: 100%; */
+     padding-left: 10px;
+     /* gap: 0px; */
+     /* height: 60px; */
+     /* line-height: 6px; */
+ }
+ 
+ .calender label{
+     /* margin-top: 1px; */
+     font-size: 12px;
+ }
+ 
+ .calender p{
+     font-size: 15px;
+     
+ }
+ 
+
+ 
+ #travelers>:nth-child(1){
+     font-size: 18px;
+     font-weight: bold;
+ }
+ 
+ #travelers>:nth-child(2){
+     font-size: 15px;
+     font-weight: bold;
+ }
+ 
+ 
+ .travelersPer{
+ 
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ 
+ .buttonsTrav{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     gap: 10px;
+ }
+ 
+ .min{
+     width: 25px;
+     height: 25px;
+     border-radius: 25px;
+     background-color: white;
+     border: 1px solid #616161;
+     /* font-size: 10px; */
+     font: 1em;
+     font-weight: 600;
+     text-align: center;
+ }
+ 
+ .max{
+     width: 25px;
+     height: 25px;
+     border-radius: 25px;
+     background-color: white;
+     border: 1px solid #616161;
+     /* font-size: 10px; */
+     font: 1em;
+     font-weight: 600;
+     text-align: center;
+ }
+ 
+ 
+ .buttonsTrav >p{
+     font-size: 15px;
+ }
+ 
+ .travelersPer>p{
+     color: #616161;
+ }
+ 
+ .travelersPer>p>span{
+     font-size: 12px;
+     margin-top: 2px;
+ }
+ 
+ 
+ #btntraveler{
+     background-color: white;
+     border: none;
+     font-size: 16px;
+     color: #007e8f;
+     margin-left: 150px;
+ }
+ 
+ #done{
+     padding: 10px;
+     width: 100%;
+     margin-top: 10px;
+     color: white;
+     font-size: 15px;
+     font-weight: 600;
+     background-color: #c83259;
+     border: none;
+     border-radius: 4px;
+ }
+ 
+ #hideDiv{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ 
+ #searchcard{
+     display: none;
+     position: absolute;
+     margin-top: -30px;
+     width: 335px;
+     height: 350px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     background-color: white;
+     margin-left: 0px;
+ }
+ 
+ #searchbar{
+     width: 80%;
+     padding: 12px;
+     border: none;
+     outline: none;
+     font-size: 18px;
+     background-color: white;
+ }
+ 
+ #searchbar:focus{
+     background-color: white;
+ }
+ 
+ #searchbar::after{
+     background-color: white;
+ }
+ 
+ #searchcard>button{
+     font-size: 15px;
+     background-color: white;
+     border: none;
+     color: #616161;
+     margin-left: 15px;
+ }
+ 
+ 
+ 
+ #searchDetails{
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+ }
+ 
+ .checkinDate{
+     width: 150px;
+ }
+ 
+ .calender input {
+     outline: 0;
+     border-width: 0 0 0px;
+     /* border-color: blue */
+ }
+ 
+ .calender input:focus {
+     outline: 0;
+ }
+ 
+ 
+ #checkbox{
+     margin-top: 20px;
+     align-items: center;
+     /* position: sticky; */
+ }
+ 
+ #addFlight,#addcar{
+     font-size: 15px;
+     text-align: center;
+ }
+ 
+ #addcarcheck{
+     margin-left: 15px;
+ }
+ 
+ #secondDiv{
+     /* position: fixed; */
+     border: 0px solid red;
+     text-align: center;
+     margin-top: 15px;
+     margin-left:450px;
+     margin-right: 450px;
+ }
+ 
+ 
+ #staySerachBtn{
+     /* position: absolute; */
+     padding: 12px;
+     width: 200px;
+     margin-top: 30px;
+     color: white;
+     font-size: 15px;
+     font-weight: 600;
+     background-color: #c83259;
+     border: none;
+ }
+ 
+ 
+ #searchcard2{
+     display: none;
+     position: absolute;
+     width: 50%;
+     margin: auto;
+     margin-top: -30px;
+     width: 335px;
+     height: 350px;
+     border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     background-color: white;
+     margin-left: 0px;
+ }
+ 
+ #searchbar2{
+     width: 80%;
+     padding: 12px;
+     border: none;
+     font-size: 18px;
+     background-color: white;
+ }
+ 
+ #searchcard2>button{
+     font-size: 15px;
+     background-color: white;
+     border: none;
+     color: #616161;
+     margin-left: 15px;
+ }
+ 
+ #flightSelectDiv{
+     margin-top: 10px;
+     display: none;
+ }
+ 
+ #searchicon,#searchicon2{
+     text-align: center;
+     color: #616161;
+     margin-top: 60px;
+     margin-bottom: 60px;
+ }
+ 
+ #searchicon>p,#searchicon2>p{
+     font-size: 12px;
+     color: #616161;
+     margin-bottom: 10px;
+ }
+ 
+ #searchicon>i,#searchicon2>i{
+     font-size: 65px;
+ }
+ 
+ 
+ #FlightsDiv{
+     display: none;
+     width: 80%;
+     margin: auto;
+ }
+ 
+ #flightfirst{
+     margin-top: 10px;
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     justify-content: space-between;
+ }
+ 
+ #flightsButtons{
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     
+ }
+ 
+ #flightsButtons>button{
+     padding: 10px;
+     width: 110px;
+     border: none;
+     background-color: white;
+     color: #616161;
+ }
+ 
+ 
+ #flightsButtons>:nth-child(1){
+     width: 110px;
+     border: none;
+     background-color: #b2d8dd;
+ }
+ 
+ 
+ #dropdowns{
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+ }
+ 
+ #dropdowns>p{
+     color: #007e8f;
+     font-size: 13px;
+ }
+ 
+ 
+ #dropdowns>p:hover{
+     border-bottom: 1px solid #007e8f;
+     cursor: pointer;
+ }
+ 
+ 
+ #flightSearch{
+     display: flex;
+     flex-direction: row;
+     gap: 20px;
+     margin-top: 20px;
+ }
+ 
+ #flightsearchdiv{
+     display: flex;
+     flex-direction: row;
+     gap: 0px;
+ }
+ 
+ #flightSelectleaving{
+     border: 1px solid #616161;
+     border-left: none;
+     width: 270px;
+     color: #616161;
+ }
+ 
+ #arroImage{
+     /* width: 40px; */
+     /* height: 40px; */
+     /* background-color: white; */
+     /* border: 1px solid #616161; */
+     /* border-radius: 25px; */
+     /* text-align: center; */
+     margin-top: 5px;
+     margin-left: -20px;
+     position: relative;
+ }
+ 
+ #imageArrow{
+     width: 30px;
+     height: 30px;
+     padding: 0px;
+     background-color: white;
+     border-radius: 15px;
+     text-align: center;
+     border: 1px solid #616161;
+     font-size: 20px;
+ }
+ 
+ #flightsearchdiv2{
+     display: flex;
+     flex-direction: row;
+     gap: 0px;
+     margin-left: -25px;
+ }
+ 
+ #flightSelectgoin{
+     border: 1px solid #616161;
+     border-left: none;
+     width: 270px;
+     color: #616161;
+ }
+ 
+ 
+ #checkboxdflight{
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     gap: 5px;
+ }
+ 
+ #addFlight{
+     margin-right: 20px;
+ }
+ 
+ 
+ #flightserachbtn{
+     /* position: fixed; */
+     /* border: 0px solid red; */
+     text-align: center;
+     margin-top: 15px;
+     margin-left:450px;
+     margin-right: 450px;
+ }
+ 
+ #flightSerachBtn{
+     /* position: fixed; */
+     padding: 12px;
+     width: 200px;
+     margin-top: 30px;
+     color: white;
+     font-size: 15px;
+     font-weight: 600;
+     background-color: #c83259;
+     border: none;
+ }
+ 
+ 
+ /* RESPONSIVE */
+ 
+ @media only screen and (min-width:700px) and (max-width: 1100px) {
+     #staysDiv{
+         width: 80%;
+         margin: auto;
+     }
+     #firstStayDiv{
+         width: 70%;
+         margin: auto;
+     }
+ }
