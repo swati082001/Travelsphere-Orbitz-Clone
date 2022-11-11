@@ -11,7 +11,6 @@ navbar_div.innerHTML=navbar();
 // }
 
 
-
 let hotels = [
     //MUMBAI
     {
@@ -314,9 +313,6 @@ citySelect.onclick = function(){
     searchcard.style.display = "block"
 }
 
-// citySelect.onclick = function(){
-//     searchcard.style.display = "block"
-// }
 
 
 let searchbar = document.getElementById("searchbar");
@@ -499,6 +495,7 @@ done.onclick = function(){
 }
 
 
+//Search button function
 let staySerachBtn = document.getElementById("staySerachBtn");
 staySerachBtn.onclick = function(){
    let c1 = document.getElementById("citySelect").value;
@@ -731,6 +728,14 @@ cruises.onclick = function(){
     document.getElementById("staysDiv").style.display ="block"
 }
 
+
+
+//onclick LGBTQ
+let lgbtq = document.getElementById("lgbtq")
+lgbtq.onclick = function(){
+    location.href ="";
+}
+
 //import barcode
 import barcode from './components/barcode.js';
 let barcode_div = document.getElementById("barcode");
@@ -741,3 +746,4 @@ barcode_div.innerHTML= barcode();
 import footer from './components/footer.js';
 let footer_div = document.querySelector("footer");
 footer_div.innerHTML = footer();
+
