@@ -1,5 +1,6 @@
 
 //create data 
+
 const createData = async function (){
 
     let id = document.getElementById("id").value;
@@ -12,8 +13,8 @@ const createData = async function (){
     
 
     let send_data ={
-        location,
         id,
+        location,
         image,
         name,
         description,
@@ -40,7 +41,7 @@ const createData = async function (){
 
 //delete data from json
 
-const deletePost = async () => {
+const deleteData = async () => {
     try{
         let delete_id = document.getElementById("delete_id").value;
 
@@ -53,7 +54,7 @@ const deletePost = async () => {
         console.log('res:', res);
 
         let data = await res.json();
-        console.log('data:', data)
+        console.log('Deletedata:', data)
     }
     catch(err){
         console.log(err)
@@ -63,7 +64,7 @@ const deletePost = async () => {
 
 
 //update data
-const updatePost = async() =>{
+const updateData = async() =>{
 
     try{
         let update_id = document.getElementById("update_id").value;
@@ -84,7 +85,7 @@ const updatePost = async() =>{
         });
 
         let data = await res.json();
-        console.log('data:', data)
+        console.log('Updatedata:', data)
     }
     catch(err){
         console.log(err)

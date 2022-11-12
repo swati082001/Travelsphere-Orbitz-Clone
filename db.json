@@ -1,61 +1,67 @@
 {
   "hotels": [
     {
-      "location":"Mumbai",
-      "id":"m1",
-      "image":"https://images.trvl-media.com/hotels/20000000/19460000/19458500/19458493/a7678da8.jpg?impolicy=resizecrop&rw=598&ra=fit",
-      "name":"The Taj Mahal Palace Mumbai",
-      "description":"Popular amenities:- Free WiFi,Air conditioning,Spa,Pool,Laundry,Parking included",
-      "price":34307,
-      "ratings":4.7
-  }, 
-  {
-    "location":"Mumbai",
-    "id":"m2",
-    "image":"https://images.trvl-media.com/hotels/70000000/69750000/69749000/69748910/a572e188.jpg?impolicy=resizecrop&rw=1200&ra=fit",
-    "name":"Lemon Tree Hotel Kalina Mumbai",
-    "description":"Popular amenities:- Free WiFi,Pool,Housekeeping,24/7 front desk",
-    "price":11186,
-    "ratings":2.9
-},
-{  
-        "id":"d1",
-        "location":"Delhi", 
-        "image":"https://static.india.com/wp-content/uploads/2022/09/Leela-Ambience-gurugram-1.jpg?impolicy=Medium_Widthonly&w=700&h=467",
-        "name":"Radisson Blu Plaza Delhi Airport Delhi",
-        "description":"Sea-Facing Modern Palace Hotel,Book Club Rooms or Suites,enjoy exclusive Lounge access,Airpot transfers,Midday refreshments,Hightea,Cocktail hours & more.",
-        "price":17120,
-        "ratings": 4.6
+      "location": "Mumbai",
+      "id": "m1",
+      "image": "https://images.trvl-media.com/hotels/20000000/19460000/19458500/19458493/a7678da8.jpg?impolicy=resizecrop&rw=598&ra=fit",
+      "name": "The Taj Mahal Palace Mumbai",
+      "description": "Popular amenities:- Free WiFi,Air conditioning,Spa,Pool,Laundry,Parking included",
+      "price": 34307,
+      "ratings": 4.7
     },
-
-    {  
-        "id":"d2",
-        "location":"Delhi", 
-        "image":"https://images.trvl-media.com/hotels/2000000/1530000/1528800/1528788/64515cdf.jpg?impolicy=resizecrop&rw=455&ra=fit",
-        "name":"The Metropolitan Hotel and Spa  Delhi",
-        "description":"Happy Hours and more at Park Hyatt, Daily Buffet Breakfast,Two Pieces of Ironing Daily,WIFI and Happy Hours from 5PM TO 8PM -One Plus offer on Beer and IMFL.",
-        "price":14800,
-        "ratings": 4.6 
-    },
-
     {
-      "id":"c1",
-      "location":"Chennai",
-      "image":"https://images.trvl-media.com/lodging/5000000/4800000/4791400/4791355/a225f1d8.jpg?impolicy=resizecrop&rw=598&ra=fit",
-      "name":"The Leela Palace Chennai",
-      "description":"Sea-Facing Modern Palace Hotel,Book Club Rooms or Suites,enjoy exclusive Lounge access,Airpot transfers,Midday refreshments,Hightea,Cocktail hours & more.",
-      "price":17124,
+      "location": "Mumbai",
+      "id": "m2",
+      "image": "https://images.trvl-media.com/hotels/70000000/69750000/69749000/69748910/a572e188.jpg?impolicy=resizecrop&rw=1200&ra=fit",
+      "name": "Taj Hotel",
+      "description": "Popular amenities:- Free WiFi,Pool,Housekeeping,24/7 front desk",
+      "price": 11186,
+      "ratings": 2.9
+    },
+    {
+      "id": "d1",
+      "location": "Delhi",
+      "image": "https://static.india.com/wp-content/uploads/2022/09/Leela-Ambience-gurugram-1.jpg?impolicy=Medium_Widthonly&w=700&h=467",
+      "name": "Radisson Blu Plaza Delhi Airport Delhi",
+      "description": "Sea-Facing Modern Palace Hotel,Book Club Rooms or Suites,enjoy exclusive Lounge access,Airpot transfers,Midday refreshments,Hightea,Cocktail hours & more.",
+      "price": 17120,
       "ratings": 4.6
-  },
-  {
-      "id":"c2",
-      "location":"Chennai",
-      "image":"https://images.trvl-media.com/lodging/6000000/5100000/5098500/5098424/9d874368.jpg?impolicy=resizecrop&rw=598&ra=fit",
-      "name":"Park Hyatt Chennai",
-      "description":"Happy Hours and more at Park Hyatt, Daily Buffet Breakfast,Two Pieces of Ironing Daily,WIFI and Happy Hours from 5PM TO 8PM -One Plus offer on Beer and IMFL.",
-      "price":14811,
-      "ratings": 4.6 
-  }
-
-]
+    },
+    {
+      "id": "d2",
+      "location": "Delhi",
+      "image": "https://images.trvl-media.com/hotels/2000000/1530000/1528800/1528788/64515cdf.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "name": "The Metropolitan Hotel and Spa  Delhi",
+      "description": "Happy Hours and more at Park Hyatt, Daily Buffet Breakfast,Two Pieces of Ironing Daily,WIFI and Happy Hours from 5PM TO 8PM -One Plus offer on Beer and IMFL.",
+      "price": 14800,
+      "ratings": 4.6
+    },
+    {
+      "id": "c1",
+      "location": "Chennai",
+      "image": "https://images.trvl-media.com/lodging/5000000/4800000/4791400/4791355/a225f1d8.jpg?impolicy=resizecrop&rw=598&ra=fit",
+      "name": "The Leela Palace Chennai",
+      "description": "Sea-Facing Modern Palace Hotel,Book Club Rooms or Suites,enjoy exclusive Lounge access,Airpot transfers,Midday refreshments,Hightea,Cocktail hours & more.",
+      "price": 17124,
+      "ratings": 4.6
+    },
+    {
+      "id": "c2",
+      "location": "Chennai",
+      "image": "https://images.trvl-media.com/lodging/6000000/5100000/5098500/5098424/9d874368.jpg?impolicy=resizecrop&rw=598&ra=fit",
+      "name": "Park Hyatt Chennai",
+      "description": "Happy Hours and more at Park Hyatt, Daily Buffet Breakfast,Two Pieces of Ironing Daily,WIFI and Happy Hours from 5PM TO 8PM -One Plus offer on Beer and IMFL.",
+      "price": 14811,
+      "ratings": 4.6
+    },
+    {
+      "id": "d3",
+      "location": "Delhi",
+      "image": "https://www.past-india.com/wp-content/uploads/2022/05/DSC_0268.jpg",
+      "name": "delhi hotels",
+      "description": "pool",
+      "price": "12200",
+      "ratings": "3.6"
+    }
+  ]
 }

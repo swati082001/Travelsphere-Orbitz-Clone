@@ -14,11 +14,15 @@ navbar_signup.onclick=()=>{
 
 let user_details=JSON.parse(localStorage.getItem("user"));
 console.log(user_details);
-show_name.innerHTML=user_details.first_name;
 if(user_details){
+    show_name.innerHTML=user_details.first_name;
     show_name.style.display="block";
     show_name.style.display="inline";
     navbar_signup.style.display="none";
+}
+else{
+    navbar_signup.style.display="block";
+    navbar_signup.style.display="inline";
 }
 
 let hotels = [
@@ -360,7 +364,7 @@ let viewData= hotels.filter(({location})=>{
       return true;
       else
       return false;
- });
+});
 
  window.onload = ()=>{
     console.log(viewData);
