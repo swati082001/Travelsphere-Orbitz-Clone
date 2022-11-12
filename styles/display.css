@@ -1,11 +1,12 @@
-
+body{
+    background-color: #f5f5f5;
+}
 
 
 
 #main-box{
-    width:87%;
-    
-    margin:1%;
+    width:80%;
+    margin: auto;
 }
 #posterad{
     position: fixed;
@@ -101,12 +102,14 @@
 
 #detail-box{
     width:80%;
+    margin: auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,200px);
     gap:10px;
     padding:1%;
-    margin:1%;
+    background-color: white;
+    margin-bottom: 20px;
     
 }
 #detail-box>div:nth-child(1){
@@ -132,14 +135,16 @@ iframe{
     margin-right: 8px;
 }
 
-.amenities{
+.amenitites{
     
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding:1%;
-    font-size: 22px;
+    justify-content: space-evenly;
+    font-size: 16px;
     
+}
+.amenitites h2{
+    margin-bottom: 20px;
 }
 #detail-box>div:nth-child(4){
     padding-top:18%;
@@ -149,7 +154,7 @@ iframe{
     display: flex;
     
     width:80%;
-    margin:1%;
+    margin:auto;
     padding:1%;
     align-items: center;
     background-color: white;
@@ -168,7 +173,7 @@ iframe{
 #room-box{
     width: 80%;
     
-    margin:1%;
+    margin:auto;
     padding:1%;
     
 }
