@@ -364,7 +364,7 @@ let viewData= hotels.filter(({location})=>{
       return true;
       else
       return false;
- });
+});
 
  window.onload = ()=>{
     console.log(viewData);

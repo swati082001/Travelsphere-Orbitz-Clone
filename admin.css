@@ -3,13 +3,19 @@ h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:gray;
 }
-#navbar{
-   
+
+/* #navbar{
     display: flex;
     width: 80%;
     height: auto;
     justify-content: space-evenly;
     margin: auto;
+} */
+
+#adminDivs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #input_data{
@@ -20,8 +26,8 @@ h1{
     gap: 20px;
     padding: 30px;
 }
-#input_post{ 
-   
+
+#input_post{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -29,8 +35,8 @@ h1{
     padding: 16px;
     height: 240px;
 }
+
 #update_post{
-  
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -41,4 +47,5 @@ h1{
 
 button{
     width: 180px;
+    padding: 5px;
 }
