@@ -35,7 +35,7 @@ add_data.onclick = async function (){
 
     let data = await res.json();
     console.log('dataCreate:', data)
-    location.reload()
+    window.location.reload()
 }
 
 
