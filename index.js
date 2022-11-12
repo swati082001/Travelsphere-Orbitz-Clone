@@ -14,8 +14,9 @@ navbar_signup.onclick=()=>{
 
 let user_details= JSON.parse(localStorage.getItem("user"));
 console.log(user_details);
-show_name.innerHTML=user_details.first_name;
+
 if(user_details){
+    show_name.innerHTML=user_details.first_name;
     show_name.style.display="block";
     show_name.style.display="inline";
     navbar_signup.style.display="none"; 
