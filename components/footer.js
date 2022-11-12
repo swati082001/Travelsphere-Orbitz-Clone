@@ -1,6 +1,4 @@
 
-
-
 const footer = ()=>{
     return `<div id="footer-one">
     <div>

@@ -6,6 +6,20 @@ import navbar from "./components/navbar.js";
 let navbar_div = document.getElementById("navbar");
 navbar_div.innerHTML=navbar();
 
+let user_details=JSON.parse(localStorage.getItem("user"));
+console.log(user_details);
+if(user_details){
+    show_name.innerHTML=user_details.first_name;
+    show_name.style.display="block";
+    show_name.style.display="inline";
+    navbar_signup.style.display="none";
+    
+}
+else{
+    navbar_signup.style.display="block";
+    navbar_signup.style.display="inline";
+}
+
 
 //import of footer
 import footer from './components/footer.js';
@@ -42,3 +56,12 @@ payment_btn.onclick = ()=>{
         
     }
 }
+
+//append room details
+let search_data = JSON.parse(localStorage.getItem("searchData"));
+console.log(search_data);
+
+
+let room_details=document.getElementById("room-details");
+
+room_details.textContent="Room 1: "+search_data.adultPer+"Adults, 1 King-Bed, Non-smoking";
