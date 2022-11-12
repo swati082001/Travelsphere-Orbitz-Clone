@@ -3,6 +3,15 @@ import navbar from "./components/navbar.js";
 let navbar_div = document.getElementById("navbar");
 navbar_div.innerHTML=navbar();
 
+let show_name=document.getElementById("show_name");
+let navbar_signup = document.getElementById("navbar_signup");
+show_name.style.display="none";
+navbar_signup.onclick=()=>{
+    navbar_signup.style.display="none";
+    window.location.href="./register.html";
+}
+
+
 let user_details=JSON.parse(localStorage.getItem("user"));
 console.log(user_details);
 if(user_details){
@@ -10,7 +19,6 @@ if(user_details){
     show_name.style.display="block";
     show_name.style.display="inline";
     navbar_signup.style.display="none";
-    
 }
 else{
     navbar_signup.style.display="block";
