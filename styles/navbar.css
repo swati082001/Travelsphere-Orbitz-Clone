@@ -84,8 +84,6 @@
     text-decoration: none;
     color: white;
 }
-
-
 @media all and (max-width: 1200px) and (min-width: 900px)
 {
     #navbar{
@@ -130,6 +128,4 @@
     #navsecond a{
         margin-left: -30px;
     }
-
-
 }
