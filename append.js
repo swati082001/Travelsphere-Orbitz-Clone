@@ -374,12 +374,6 @@ let viewData= hotels.filter(({location})=>{
 
 
 
-
-
-
-
-
-
 const appendData = (data)=>{
     let card= document.querySelector("#display-box");
     card.innerHTML=null;

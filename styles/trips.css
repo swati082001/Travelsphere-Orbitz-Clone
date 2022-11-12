@@ -1,0 +1,48 @@
+#trips_container{
+    width: 35%;
+    margin: auto;
+    margin-bottom: 250px;
+    font-family: Arial;
+    margin-top: 20px;
+}
+
+.nav{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+}
+#cont{
+    width: 100%; 
+    margin: auto;
+    background-color: #c83259;
+    font-size: 20px;
+    padding: 10px;
+   
+}
+#cont a{
+    color: white;
+    text-decoration: none;
+}
+
+#item{
+    width: 100%;
+    border: 0.5px solid gray;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+ 
+}
+#item a{
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+#item p{
+    color: grey;
+    font-weight: 200;
+    margin-top: 10px;
+}
+

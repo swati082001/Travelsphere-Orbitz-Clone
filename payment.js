@@ -65,3 +65,53 @@ console.log(search_data);
 let room_details=document.getElementById("room-details");
 
 room_details.textContent="Room 1: "+search_data.adultPer+"Adults, 1 King-Bed, Non-smoking";
+
+
+
+//hotel details
+let hotel_details = JSON.parse(localStorage.getItem("tripData"));
+console.log(hotel_details);
+let pay_sidebar = document.getElementById("pay-sidebar");
+let pay_image = document.createElement("img");
+pay_image.src = hotel_details.image;
+
+let pay_title = document.createElement("h3");
+pay_title.innerText = hotel_details.name;
+
+let pay_rating = document.createElement("p");
+pay_rating.innerText = hotel_details.ratings+" " + "Excellent(114 views)";
+
+let room = document.createElement("p");
+ room.innerText = "Room 1: "+search_data.adultPer+"Adults, 1 King-Bed, Non-smoking";
+
+ let room_checkin = document.createElement("p");
+ room_checkin.innerText ="CHECK-IN :"+" "+ search_data.checkin;
+
+ let room_checkout = document.createElement("p");
+ room_checkout.innerText ="CHECK-OUT :"+" "+ search_data.checkout;
+
+ pay_sidebar.append(pay_image,pay_title,pay_rating,room,room_checkin,room_checkout);
+
+ let price_perNight = document.getElementById("price_perNight");
+ price_perNight.innerText = "₹"+ hotel_details.price;
+
+ let tax = document.getElementById("tax");
+ tax.innerText ="₹" +Number(372);
+
+ let total = document.getElementById("total");
+ total.innerText = hotel_details.price+372;
+
+ let coupon = document.getElementById("coupon");
+ coupon.onclick = ()=>{
+    let coupon_data=window.prompt("Enter the coupon code here")
+    event.preventDefault();
+    if(coupon_data=="ROOM123"){
+        alert("Your code was entered successfully! Enjoy.");
+        total.innerText = hotel_details.price+372-500;
+
+    }
+    else{
+        alert("Invalid Coupon code");
+    }
+ }
+
