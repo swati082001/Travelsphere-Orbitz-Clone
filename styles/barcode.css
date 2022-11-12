@@ -72,36 +72,3 @@
     font-size: 14px;
     color: rgb(70, 69, 69);
 }
-
-
-@media all and (max-width: 1200px) and (min-width: 900px){
-
-    .barcode-two>div>h1{
-        font-size: 25px;
-    }
-    
-    .barcode-two div:nth-child(1) ul li{
-        padding: 8px;
-    }
-    .barcode-two div:nth-child(1) h2{
-       margin-bottom: 10px;
-    }
-    .barcode-two div:nth-child(2){
-        width: 20%;
-    }
-    
-    .barcode-two div:nth-child(1) input{
-        padding: 10px;
-    }
-
-    .barcode-two div:nth-child(1) select{
-        padding: 10px;
-    }
-
-    .barcode-two div:nth-child(1) button{
-        margin-left: 10px;
-    }
-    .barcode-two p{
-        font-size: 16px;
-    }
-}
