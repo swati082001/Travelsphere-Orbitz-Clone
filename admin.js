@@ -1,5 +1,5 @@
 
-//create button id or submit button 
+//create data 
 
 const createData = async function (){
 
@@ -35,7 +35,7 @@ const createData = async function (){
 
     let data = await res.json();
     console.log('dataCreate:', data)
-    window.location.reload();
+    window.location.reload()
 }
 
 
