@@ -1,7 +1,6 @@
 
-//create button id or submit button 
-let add_data = document.getElementById("createAdminData");
-add_data.onclick = async function (){
+//create data 
+const createData = async function (){
 
     let id = document.getElementById("id").value;
     let location = document.getElementById("locationinput").value;
