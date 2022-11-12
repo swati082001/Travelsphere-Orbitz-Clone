@@ -83,6 +83,49 @@
     text-decoration: none;
     color: white;
 }
-#show_name{
-    display: inline;
+
+@media all and (max-width: 1200px) and (min-width: 900px)
+{
+    #navbar{
+        height: 60px;
+    }
+    
+    #navfirst{
+        justify-content: space-between;
+    }
+    #navfirst img{
+        width: 100%;
+    }
+    #navfirst a{
+        width: 40%;
+    }
+
+    #navfirst ul{
+        display: inline;
+        margin-left: -250px;
+    }
+   
+    #navfirst ul li:hover .dropdown ul li{
+        width: 140px;
+        padding: 8px;
+    }
+
+    .dropdown ul li i{
+        margin-right: 10px;
+    }
+
+    .dropdown ul li a{
+      
+        font-size: 15px;
+    }
+    
+    #navsecond{
+        padding-top: 20px;
+        font-size: 15px;
+        margin-right: 100px;
+    }
+
+    #navsecond a{
+        margin-left: -30px;
+    }
 }
