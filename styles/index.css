@@ -856,6 +856,7 @@ input:focus {
     width: 100px;
 }
 
+
  /* Responsive for medium screen */
  
 @media all and (max-width: 1200px) and (min-width: 900px) {
