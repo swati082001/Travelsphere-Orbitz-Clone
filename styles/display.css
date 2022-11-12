@@ -67,8 +67,12 @@
     padding:1%;
     margin:5px 15px 5px 0;
     background-color: rgb(166, 63, 166);
-    color:white;
+    
     font-size: 20px;
+}
+#reserve-btn a{
+    text-decoration: none;
+    color: white;
 }
 .tab-option{
     
