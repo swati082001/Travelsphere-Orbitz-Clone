@@ -67,9 +67,9 @@ body{
 }
 #reserve-btn{
     
-    padding:1%;
+    padding:10px;
     margin:5px 15px 5px 0;
-    background-color: rgb(166, 63, 166);
+    background-color: #ca2550 ;
     
     font-size: 20px;
 }
@@ -172,7 +172,6 @@ iframe{
 
 #room-box{
     width: 80%;
-    
     margin:auto;
     padding:1%;
     
@@ -192,11 +191,14 @@ iframe{
 }
 .room-title{
     font-size:20px;
-    text-align: center;
+    margin-bottom: 10px;
 }
 .card-detail{
     padding:8px;
     background-color: white;
+}
+.card-detail div{
+    margin-bottom: 7px;
 }
 .price-box{
     display: flex;
@@ -205,15 +207,17 @@ iframe{
     padding:5px;
 }
 .price-box div{
-    background-color: purple;
-    padding:4%;
+    background-color: #ca2550 ;
+    padding:10px 15px 10px;
 }
 .price-box a{
     text-decoration: none;
     color:white;
     font-size: 20px;
 }
-#adposter{
-    position: fixed;
-    right:5px;
+.card-price{
+    font-weight: 600;
+    font-size: 22px;
 }
+
+
