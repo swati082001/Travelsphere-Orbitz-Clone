@@ -46,5 +46,3 @@ On this project I focused on implementing a shopping cart.
 ![TS8](https://user-images.githubusercontent.com/49937312/221928046-0b7048ca-1e2f-44c4-ac94-d69caf12e3cc.png)
 
 ![TS9](https://user-images.githubusercontent.com/49937312/221928117-efe30205-37be-454a-976b-b82e9a518786.png)
-
-
